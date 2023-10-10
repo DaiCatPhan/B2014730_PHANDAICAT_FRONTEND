@@ -18,6 +18,8 @@ export default {
   },
   methods: {
     async getContact(id) {
+      console.log(">>>", id);
+
       try {
         this.contact = await ContactService.get(id);
       } catch (error) {
@@ -54,7 +56,6 @@ export default {
   },
   created() {
     this.getContact(this.id);
-
     this.message = "";
   },
 };

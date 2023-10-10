@@ -102,7 +102,8 @@ export default {
       </label>
     </div>
     <div class="form-group">
-      <button class="btn btn-primary">Lưu</button>
+      <button v-if="contactLocal._id" class="btn btn-primary">Lưu</button>
+      <button v-if="!contactLocal._id" class="btn btn-primary">Create</button>
       <button
         v-if="contactLocal._id"
         type="button"
