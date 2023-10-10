@@ -111,7 +111,7 @@ export default {
         @click="deleteContact"
       >
         Xóa
-      </button>
+      </button> 
     </div>
   </Form>
 </template>
