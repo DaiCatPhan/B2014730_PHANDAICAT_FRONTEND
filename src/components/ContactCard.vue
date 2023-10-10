@@ -9,11 +9,10 @@ export default {
 </script>
 
 <template>
-  <h1>ContactCard</h1>
   <div>
     <div class="p-1">
       <strong>Tên:</strong>
-      {{ contact.name }}
+      {{ contact.name }}  
     </div>
     <div class="p-1">
       <strong>E-mail:</strong>

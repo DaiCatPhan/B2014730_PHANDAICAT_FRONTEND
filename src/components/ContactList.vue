@@ -16,7 +16,6 @@ export default {
 </script>
 
 <template>
-  <p>ContactList</p>
   <ul class="list-group">
     <li
       class="list-group-item"
